@@ -1,4 +1,7 @@
 /* colors, #71ccd4 - blue green, #232323 - dark grey BG, #646464 - med grey TEXT */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'Comfortaa', cursive; */
 
 
 body {
@@ -21,7 +24,7 @@ body {
 
 .glow {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Comfortaa', cursive;
     margin: 10px 0 10px 50px;
     float: right;
     text-align: right;
@@ -46,8 +49,6 @@ body {
 .navbar {
     max-width: 900px;
     background-color: white;
-    float: left;
-    text-align: left;
     margin: auto;  
 }
 .navItems:link, .navItems:active, .navItems:visited { 
@@ -60,57 +61,72 @@ body {
 }
 
 .navItems {
-    display: inline-flex;
+    display: inline-block;
+    text-align: left;
     font-family: 'Poppins', sans-serif;
     padding: 0 20px;   
 }
 
 .bodyMain {
     max-width: 900px;
-    height: auto;
     background-color: white;
     margin: auto;
-    
 }
 
 h2 {
     color: #d3d2d2;
     padding: 50px 0 10px 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-weight: bolder;
-    
 }
 
 .content {
+    max-width: 900px;
+    height: auto;
     background-color: white;
-    text-align: justify;
     margin: auto;
-    color: #646464;
-    padding: 50px; 
-    
+    padding: 0 0 15% 0;
+}
+.contentleft {
+    margin: auto;
 }
 
-footer{
+.contentCenter {  
+    margin: auto;
+    color: #646464;
+    font-family: 'Pacifico', cursive; 
+    text-align: justify;
+}
+
+.contentRight {
+    margin: auto;
+}
+.footer{
     max-width: 900px;
     margin: auto;
     border-radius: 5px;
-    background-color: #474747;  
-    border: 20px;
-    padding: 10px; 
+    background-color: #474747;      
+    bottom: 10px;
+    padding: 1%;
 }
 .social {
     float: left;
     text-align: left;
     width: 20%;
-    padding: 5px;
+    padding: 4px;
+    
 }
 .emailMe {
     float: right;
     text-align: right;
     color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    text-decoration: none; 
+    padding: 4px;
 }
 .emailMe:hover {
-    color:#71ccd4;
+    color:#71ccd4;  
 }
 
 
@@ -130,7 +146,7 @@ footer{
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     h1 {
       font-size: 40px;
       margin-top: 20px;
