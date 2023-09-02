@@ -1,4 +1,4 @@
-/* colors, #71ccd4 - blue green, #232323 - dark grey BG, #646464 - med grey TEXT */
+/* colors:  NAVY #282d3c, CORAL #ff4848, EMERALD #009d47, GOLDEN #f1b71c, HIBISCUS #ff8271, SAGE #badeba */
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Pacifico', cursive; */
 /* font-family: 'Comfortaa', cursive; */
@@ -14,12 +14,14 @@ body {
 }
 
 .glowBox {
-    background-color: #232323;
+    background-color: #282d3c;
+    background: linear-gradient(to right bottom, #badeba, #282d3c);
+    opacity: .9;
     max-width: 900px;
     border: 10px;
-    padding: 10px; 
+    padding: 10px 50px 0 50px; 
     margin: 20px auto 0 auto;
-    border-radius: 5px;
+    border-radius: 11px 11px 0 0;
 }
 
 .glow {
@@ -33,7 +35,6 @@ body {
 .icon {
     margin: 20px;
     width: 4%;
-    align-items: auto;
     float: left;
     text-align: left;
 }
@@ -49,33 +50,37 @@ body {
 .navbar {
     max-width: 900px;
     background-color: white;
+    opacity: .9;
     margin: auto;  
+    justify-content: left;
+    padding: 20px;
 }
+
 .navItems:link, .navItems:active, .navItems:visited { 
     text-decoration: none; 
-    color: #646464;
+    color: #282d3c;
 }
 
 .navItems:hover {
-    color: #71ccd4;
+    color: #ff8271;
 }
 
 .navItems {
     display: inline-block;
-    text-align: left;
     font-family: 'Poppins', sans-serif;
-    padding: 0 20px;   
+    padding: 0 10px;   
 }
 
 .bodyMain {
     max-width: 900px;
     background-color: white;
+    opacity: .9;
     margin: auto;
 }
 
 h2 {
-    color: #d3d2d2;
-    padding: 50px 0 10px 0;
+    color: #282d3c;
+    padding: 60px 0 0 0;
     font-family: 'Comfortaa', cursive;
     font-weight: bolder;
 }
@@ -84,8 +89,9 @@ h2 {
     max-width: 900px;
     height: auto;
     background-color: white;
+    opacity: .9;
     margin: auto;
-    padding: 0 0 15% 0;
+    padding: 0 0 11% 0;
 }
 .contentleft {
     margin: auto;
@@ -93,8 +99,8 @@ h2 {
 
 .contentCenter {  
     margin: auto;
-    color: #646464;
-    font-family: 'Pacifico', cursive; 
+    color: #009d47;
+    font-family: 'Poppins', sans-serif;
     text-align: justify;
 }
 
@@ -105,7 +111,8 @@ h2 {
     max-width: 900px;
     margin: auto;
     border-radius: 5px;
-    background-color: #474747;      
+    background-color: #282d3c;
+    opacity: .8;      
     bottom: 10px;
     padding: 1%;
 }
@@ -113,9 +120,13 @@ h2 {
     float: left;
     text-align: left;
     width: 20%;
-    padding: 4px;
-    
+    padding: 4px;  
 }
+
+.media:hover {
+   box-shadow: 0 0 7px #ffffff;;
+}
+
 .emailMe {
     float: right;
     text-align: right;
@@ -124,9 +135,12 @@ h2 {
     font-size: 14px;
     text-decoration: none; 
     padding: 4px;
+    
 }
+
 .emailMe:hover {
-    color:#71ccd4;  
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;  
 }
 
 
