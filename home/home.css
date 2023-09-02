@@ -2,29 +2,29 @@
 
 
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    grid-template-rows: 20px 20px 1fr 30px;
     max-width: 900px;
-    max-height: 900px;
-    margin: 0 auto;
+    margin: auto;
+
 }
 
 .glowBox {
     background-color: #232323;
-    border: 20px;
+    border: ;
     padding: 20px; 
 }
 
-.glow {
+.glow, h1 {
     color: white;
     font-family: 'Poppins', sans-serif;
     text-align: right;
 }
 
 .glow:hover {
-    text-shadow: 0 0 7px #fff;
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;
     font-weight: bolder;
 }
 .icon {
@@ -79,7 +79,9 @@ footer{
     justify-content: center;
     background-color: #474747;  
     border: 10px;
-    padding: 10px; 
+    padding: 0; 
+    margin: 0;
+    width: 100%;
 }
 
 
