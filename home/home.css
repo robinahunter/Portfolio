@@ -1,0 +1,118 @@
+/* colors, #71ccd4 - blue green, #232323 - dark grey BG, #646464 - med grey TEXT */
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    max-height: 900px;
+    margin: 0 auto;
+}
+
+.glowBox {
+    background-color: #232323;
+    border: 20px;
+    padding: 20px; 
+}
+
+.glow {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+.glow:hover {
+    text-shadow: 0 0 7px #fff;
+    text-shadow: 0 0 10px #fff;
+    font-weight: bolder;
+}
+.icon {
+    align-items: left;
+    width: 8%;
+}
+
+nav {
+    text-decoration: none;
+    
+}
+a:link, a:hover, a:active, a:visited { 
+    text-decoration: none; 
+    color: #646464;
+}
+
+a:hover {
+    color: #71ccd4;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding: 20px;  
+}
+
+h2 {
+    color: #d3d2d2;
+}
+
+.content {
+    text-align: justify;
+    margin: auto 0;
+    color: #646464;
+}
+
+.social {
+    margin: auto;
+    width: 15%;
+    padding-right: 10px;
+}
+
+.social:hover {
+   width: 20.5%;
+}
+
+footer{
+    
+    bottom: 0;
+    position: absolute;
+    justify-content: center;
+    background-color: #474747;  
+    border: 10px;
+    padding: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    h1 {
+      font-size: 40px;
+      margin-top: 20px;
+      line-height: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 20px 0 30px 0;
+    }
+    div {
+      margin: 20px 12px 0 12px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
