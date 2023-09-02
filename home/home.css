@@ -2,18 +2,21 @@
 
 
 body {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
     display: flex;
     flex-direction: column;
     grid-template-rows: 20px 20px 1fr 30px;
-    max-width: 900px;
-    margin: auto;
+    max-width: 100%;
 
 }
 
 .glowBox {
     background-color: #232323;
+    max-width: 900px;
     border: 10px;
     padding: 10px; 
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
 }
 
 h1 {
@@ -27,19 +30,27 @@ h1 {
     margin: 20px;
     width: 4%;
     align-items: auto;
+    float: left;
+    text-align: left;
 }
 
 .glow:hover {
     text-shadow: 0 0 7px #ffffff;
     text-shadow: 0 0 10px #ffffff;
     font-weight: bolder;
-}
-
-nav {
-    text-decoration: none;
+    text-align: right;
     
 }
-a:link, a:hover, a:active, a:visited { 
+
+.navbar {
+    max-width: 900px;
+    text-decoration: none;
+    background-color: white;
+    margin: auto;  
+    float: right;
+    text-align: right;
+}
+a:link, a:active, a:visited { 
     text-decoration: none; 
     color: #646464;
 }
@@ -51,8 +62,20 @@ a:hover {
 li {
     display: inline-block;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
-    padding: 20px;  
+    padding: 0 20px 0 20px;  
+}
+
+.bodyMain {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    padding: auto;
+    height: auto;
 }
 
 h2 {
@@ -64,24 +87,38 @@ h2 {
 }
 
 .content {
+    background-color: white;
     text-align: justify;
     margin: auto;
     color: #646464;
-}
-
-.social {
-    margin: auto;
-    width: 15%;
-    padding-right: 10px;
+    padding: 50px; 
+    
 }
 
 footer{
-    bottom: 0;
+    max-width: 900px;
+    margin: auto 0;
+    bottom: 20px;
+    border-radius: 5px;
     position: fixed;
     background-color: #474747;  
     border: 20px;
     padding: 10px; 
 }
+.social {
+    float: left;
+    text-align: : left;
+    justify-content: center;
+    width: 20%;
+    padding-right: 10px;
+}
+.emailMe {
+    float: right;
+    text-align: right;
+    justify-content: center;
+    color: white;
+}
+
 
 
 
