@@ -1,6 +1,6 @@
 //JS for page transitions using swup
 
-const swup = new Swup()
+const swup = newSwup()
 
 //JS for hamburger menu
 

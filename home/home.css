@@ -13,11 +13,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.transition-fade {
+.transition-page {
     opacity: 1;
-    transition: 3000;
+    transition: 500ms;
 }
-html.is-animating .transition-fade {
+html.is-animating .transition-page {
     opacity: 0;
 }
 body {
