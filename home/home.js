@@ -1,3 +1,9 @@
+//JS for page transitions using swup
+
+const swup = new Swup()
+
+//JS for hamburger menu
+
 const hamburger = document.querySelector(".hamburger");
 const navbar = document.querySelector(".navbar");
 
