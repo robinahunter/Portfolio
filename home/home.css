@@ -6,7 +6,6 @@
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
-    /* HOME PAGE */
 
 * {
     padding: 0;
@@ -23,13 +22,12 @@ html.is-animating .transition-page {
 body {
     display: flex;
     flex-direction: column;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     max-width: 100%;
-
 }
+
 .bodyHome {
     background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
-
 }
 
 .glowBox {
@@ -55,8 +53,7 @@ body {
     margin: 1%;
     width: 4%;
     float: left;
-    text-align: left;
-    
+    text-align: left;  
 }
 
 .hamburger {
@@ -75,8 +72,8 @@ body {
 }
 
 .hamburger:hover {
-        text-shadow: 0 0 7px #ffffff;
-        text-shadow: 0 0 10px #ffffff;  
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;  
 }
 
 .glow:hover {
@@ -182,6 +179,44 @@ h2 {
     text-shadow: 0 0 10px #ffffff;  
 }
 
+
+  /* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+    /* HOME PAGE */
+
+.contentHome {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 10px 0;
+}
+.carousel-container {
+    position:relative;
+    width: 900px;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    background-color: white;
+    opacity: .9;
+}
+
+.carousel-images {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-images {
+    width: 100%;
+    border-radius: 11px;
+    display: ;
+}
+
+.carousel-images img:first-of-type {
+    display: block;
+}
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
