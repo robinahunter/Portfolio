@@ -26,9 +26,6 @@ body {
     max-width: 100%;
 }
 
-.bodyHome {
-    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
-}
 
 .glowBox {
     background-color: #282d3c;
@@ -110,53 +107,28 @@ body {
     padding: 0 10px; 
 }
 
-h2 {
-    color: #282d3c;
-    padding: 60px 0 0 0;
-    font-family: 'Comfortaa', cursive;
-    font-weight: bolder;
-}
-
-.content {
-    max-width: 900px;
-    height: auto;
-    background-color: white;
-    opacity: .9;
-    margin: auto;
-    padding: 0 0 11% 0;
-}
-
-.contentCenter {  
-    margin: auto;
-    color: #005994;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-}
-
-
 .footer{
     max-width: 900px;
     margin: auto;
     border-radius: 0 0 11px 11px;
     background-color: #282d3c;
     background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
-    opacity: .8;      
-    bottom: 10px;
+    opacity: .9;      
     padding: 1%;
 }
 .social {
     float: left;
     text-align: left;
     width: 20%;
-    padding: 4px;  
+    padding: 0;  
 }
 .media {
     float: left;
     text-align: left;
     width: 20%;
-    padding: 4px; 
+    padding: 0 4px; 
     opacity: 1;
-    transition: opacity .2s; 
+    transition: opacity .3s;   
 }
 
 .media:hover {
@@ -169,9 +141,7 @@ h2 {
     color: white;
     font-family: 'Comfortaa', cursive;
     font-size: 14px;
-    text-decoration: none; 
-    padding: 1%;
-    
+    text-decoration: none;     
 }
 
 .emailMe:hover {
@@ -180,10 +150,21 @@ h2 {
 }
 
 
-  /* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
     /* HOME PAGE */
+
+.bodyHome {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
+}
+
+h2 {
+    color: #282d3c;
+    padding: 60px 0 0 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
 
 .contentHome {
     max-width: 900px;
@@ -191,20 +172,19 @@ h2 {
     background-color: white;
     opacity: .9;
     margin: auto;
-    padding: 0 0 10px 0;
+    padding: 0 0 2% 0;
 }
-.carousel-button {
-    position: absolute;
-    border: 10px;
-    margin: 10px;
-    
+
+.contentCenterHome {  
+    margin: auto;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
 }
-.pause:nth-child(2){
-    transform: translateY(8px) rotate(90deg);
-}
+
 .pause {
-    position: relative;
-    display: inline-block;
+    position:fixed;
+    display: none;
     text-align: center;
     width: 40px;
     height: 4px;
@@ -214,24 +194,34 @@ h2 {
     background-color: #009d47;
     cursor: pointer;
 }
+.pause:nth-child(2) {
+    transform: rotate(45deg);
+}
 .carousel-container {
-    position:relative;
+    position: relative;
     max-width: 900px;
     height: 200px;
     display: flex;
-    margin: auto;
+    margin: 0 auto;
     background-color: white;
-    opacity: .9;  
+    opacity: .9;    
 }
 
 .carousel-images {
     width: 100%;
-    box-sizing: border-box;
-    display: ;
 }
 
 .carousel-images img:first-of-type {
-    display: block;
+    display: flex;  
+}
+.footerHome {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0 0 11px 11px;
+    background-color: #282d3c;
+    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
+    opacity: .9;      
+    padding: 2.5%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------*/
@@ -239,9 +229,32 @@ h2 {
     
     /* ABOUT PAGE */
 
-    .bodyAbout {
-        background-image: url('https://i.postimg.cc/zfc3pL5p/NEW-Midnight-Repeat-24x24.png');
-    }
+.bodyAbout {
+    background-image: url('https://i.postimg.cc/zfc3pL5p/NEW-Midnight-Repeat-24x24.png');
+}
+.contentAbout {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 7% 0;
+}
+.contentLeftAbout {
+    display: block;
+    margin: 0 100px;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify; 
+    padding: 0;
+}
+.aboutImage{
+    width: 50%;
+    border-radius: 50%;
+    text-align: justify; 
+    margin: 0 0 0 200%;
+    padding: 0;
+}
 
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
@@ -251,7 +264,21 @@ h2 {
     .bodyResume {
         background-image: url('https://i.postimg.cc/4NMZ3npR/Dawn-Fall-Winter-24x24.png');
     }
-
+    .contentResume {
+        max-width: 900px;
+        height: auto;
+        background-color: white;
+        opacity: .9;
+        margin: auto;
+        padding: 0 0 7% 0;
+    }
+    .contentCenterResume {  
+        margin: 0 0 0 60%;
+        color: #005994;
+        font-family: 'Poppins', sans-serif;
+        text-align: right;
+        
+    }
     /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
@@ -260,7 +287,27 @@ h2 {
     .bodyProjects {
         background-image: url('https://i.postimg.cc/Z5C8rs9y/White-Green-Palm-Print.png');
     }
-
+    .contentProjects {
+        max-width: 900px;
+        height: auto;
+        background-color: white;
+        opacity: .9;
+        margin: auto;
+        padding: 0 0 7% 0;
+    }
+    .contentCenterProjects {  
+        margin: auto;
+        color: #005994;
+        font-family: 'Poppins', sans-serif;
+        text-align: center; 
+    }
+.project1 {
+    max-width: 33%;
+    max-height: 33%;
+    border: #005994;
+    background-color: #005994;
+    
+}
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
@@ -269,12 +316,34 @@ h2 {
     .bodyContact {
         background-image: url('https://i.postimg.cc/v8KH4PdK/Wave-Print-Navy-Sage.png');
     }
+    .contentContact {
+        max-width: 900px;
+        height: auto;
+        background-color: white;
+        opacity: .9;
+        margin: auto;
+        padding: 0 0 7% 0;
+    }
+    .contentCenterContact {  
+        margin: auto;
+        color: #005994;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        
+    }
+    .sendButton {
+        background-color: #f1b71c;
+        color: #ffffff;
+        border: none;
+        padding: 2%;
+        border-radius: 10%;
+    }
     
 
-/* --------------@MEDIA QUERY---------- */
+/* --------------@MEDIA QUERY---------------------------------------------------------------------------------- */
 /* My Site is set to 900px (LG) */
 
-@media (max-width: 768px) {  /* MEDIUM 768px (most tablets) min-width -------------------------------------------------- */
+@media (max-width: 768px) {  /* MEDIUM 768px (most tablets) min-width ----------------------------------------- */
 
     .glow {
         display: none;
@@ -418,20 +487,16 @@ h2 {
         text-shadow: 0 0 20px #ffffff;  
     }    
 }
-    
-/* ------------------------------------------------------------------------------------------------------------*/
-/* ------------------------------------------------------------------------------------------------------------*/
+      
 
-    /* MEDIA QUERY */   
-
-    @media (max-width: 480px) { /*-------------------------------------------------------- */
+    @media (max-width: 480px) { /* MEDIUM 420px (most tablets) min-width ----------------------------------------- */
         .contentCenter {
             padding: 20px 15px 200px 15px;
         }
        
     }
 
-    @media (max-width: 320px) { /*-------------------------------------------------------- */
+    @media (max-width: 320px) { /* MEDIUM 320px (most tablets) min-width ----------------------------------------- */
 
         .contentCenter {
             padding: 20px 15px 200px 15px;
