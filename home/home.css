@@ -193,30 +193,47 @@ h2 {
     margin: auto;
     padding: 0 0 10px 0;
 }
+.carousel-button {
+    position: absolute;
+    border: 10px;
+    margin: 10px;
+    
+}
+.pause:nth-child(2){
+    transform: translateY(8px) rotate(90deg);
+}
+.pause {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 4px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #009d47;
+    cursor: pointer;
+}
 .carousel-container {
     position:relative;
-    width: 900px;
+    max-width: 900px;
     height: 200px;
     display: flex;
     margin: auto;
     background-color: white;
-    opacity: .9;
+    opacity: .9;  
 }
 
 .carousel-images {
     width: 100%;
     box-sizing: border-box;
-}
-
-.carousel-images {
-    width: 100%;
-    border-radius: 11px;
     display: ;
 }
 
 .carousel-images img:first-of-type {
     display: block;
 }
+
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
@@ -363,6 +380,7 @@ h2 {
      .contentRight{
         visibility: hidden;
     }
+
     .footer{
         max-width: 100%;
         margin: auto;
@@ -410,6 +428,7 @@ h2 {
         .contentCenter {
             padding: 20px 15px 200px 15px;
         }
+       
     }
 
     @media (max-width: 320px) { /*-------------------------------------------------------- */
@@ -423,4 +442,5 @@ h2 {
         .emailMe{
             margin: 0 5px ;
         }
+    
     }

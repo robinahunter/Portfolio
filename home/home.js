@@ -24,7 +24,7 @@ let currentImgIndex = 0;
 const images = document.getElementsByClassName('images');
 
 function automaticSlide () {
-    setTimeout(automaticSlide, 1000);
+    setTimeout(automaticSlide, 500);
 let pics;
 const img  = document.querySelectorAll('.images');
 for (pics=0; pics<img.length; pics++) {
@@ -37,13 +37,9 @@ if (currentImgIndex > img.length) {
     img[currentImgIndex-1].style.display="block";
 }
 automaticSlide();
-
-const pause = document.querySelector('.pause')  
-
-pause.addEventListener('click', () => {
     
-    if(currentImgIndex >= images.length) {
-        currentImgIndex = 0;
-        } 
-})
+if(currentImgIndex >= images.length) {
+    currentImgIndex = 0;
+    } 
+
        // CAROUSEL SECTION automatic slide function ---------------------------------------------------
