@@ -107,49 +107,6 @@ body {
     padding: 0 10px; 
 }
 
-.footer{
-    max-width: 900px;
-    margin: auto;
-    border-radius: 0 0 11px 11px;
-    background-color: #282d3c;
-    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
-    opacity: .9;      
-    padding: 1%;
-}
-.social {
-    float: left;
-    text-align: left;
-    width: 20%;
-    padding: 0;  
-}
-.media {
-    float: left;
-    text-align: left;
-    width: 20%;
-    padding: 0 4px; 
-    opacity: 1;
-    transition: opacity .3s;   
-}
-
-.media:hover {
-    opacity: .7;
-}
-
-.emailMe {
-    float: right;
-    text-align: right;
-    color: white;
-    font-family: 'Comfortaa', cursive;
-    font-size: 14px;
-    text-decoration: none;     
-}
-
-.emailMe:hover {
-    text-shadow: 0 0 7px #ffffff;
-    text-shadow: 0 0 10px #ffffff;  
-}
-
-
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
@@ -259,86 +216,223 @@ h2 {
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
-    /* RESUME PAGE */
+/* RESUME PAGE */
 
-    .bodyResume {
-        background-image: url('https://i.postimg.cc/4NMZ3npR/Dawn-Fall-Winter-24x24.png');
-    }
-    .contentResume {
-        max-width: 900px;
-        height: auto;
-        background-color: white;
-        opacity: .9;
-        margin: auto;
-        padding: 0 0 7% 0;
-    }
-    .contentCenterResume {  
-        margin: 0 0 0 60%;
-        color: #005994;
-        font-family: 'Poppins', sans-serif;
-        text-align: right;
-        
-    }
+.bodyResume {
+    background-image: url('https://i.postimg.cc/4NMZ3npR/Dawn-Fall-Winter-24x24.png');
+}
+.contentResume {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 7% 0;
+}
+.contentCenterResume {  
+    margin: 0 0 0 60%;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    
+}
     /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
     /* PROJECTS PAGE */
 
-    .bodyProjects {
-        background-image: url('https://i.postimg.cc/Z5C8rs9y/White-Green-Palm-Print.png');
-    }
-    .contentProjects {
-        max-width: 900px;
-        height: auto;
-        background-color: white;
-        opacity: .9;
-        margin: auto;
-        padding: 0 0 7% 0;
-    }
-    .contentCenterProjects {  
-        margin: auto;
-        color: #005994;
-        font-family: 'Poppins', sans-serif;
-        text-align: center; 
-    }
-.project1 {
-    max-width: 33%;
-    max-height: 33%;
-    border: #005994;
-    background-color: #005994;
-    
+.bodyProjects {
+    background-image: url('https://i.postimg.cc/Z5C8rs9y/White-Green-Palm-Print.png');
 }
+.contentProjects {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 10px 0;
+}
+.contentCenterProjects {  
+    margin: auto;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    padding-top: 0;
+}
+.projects {
+    display: flex;
+    margin: auto;
+    max-width: 900px;
+    opacity: .9;
+    background-color: #ffffff; 
+    padding-bottom: 50px; 
+}
+.project1 {
+    position: relative;
+    display: block;
+    float: left;
+    align-items: left;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 4%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    font-size: 18px;
+    font-family: 'VT323', monospace;;
+    background-color: #000;
+    color: #01f71e;
+}
+.project1button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 7%;
+}
+.spaceBttl {
+    font-size: 23px;
+    font-weight:900;
+}
+.project2 {
+    position: relative;
+    display: block;
+    float: center;
+    align-items: center;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 6%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    background-image: url('https://i.postimg.cc/Bvv6SywB/aloha-kai.png');
+    background-size: 100%;
+    background-repeat: none;
+    background-color: #282828;
+    color: #ffffff;
+}
+.project2button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 7%;
+}
+.project3 {
+    position: relative;
+    display: block;
+    float: left;
+    align-items: left;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 6%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    background-image: url('https://i.postimg.cc/65Cb3tHV/rock-paper-scissor.png');
+    background-size: 100%;
+    background-repeat: none;
+    background-color: #282828;
+    color: #ffffff;
+}
+.project3button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 7%;
+}
+ 
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
     
     /* CONTACT PAGE */
 
-    .bodyContact {
-        background-image: url('https://i.postimg.cc/v8KH4PdK/Wave-Print-Navy-Sage.png');
-    }
-    .contentContact {
-        max-width: 900px;
-        height: auto;
-        background-color: white;
-        opacity: .9;
-        margin: auto;
-        padding: 0 0 7% 0;
-    }
-    .contentCenterContact {  
-        margin: auto;
-        color: #005994;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        
-    }
-    .sendButton {
-        background-color: #f1b71c;
-        color: #ffffff;
-        border: none;
-        padding: 2%;
-        border-radius: 10%;
-    }
+.bodyContact {
+    background-image: url('https://i.postimg.cc/v8KH4PdK/Wave-Print-Navy-Sage.png');
+}
+.contentContact {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 7% 0;
+}
+.contentCenterContact {  
+    margin: auto;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
     
+}
+.sendButton {
+    background-color: #f1b71c;
+    color: #ffffff;
+    border: none;
+    padding: 2%;
+    border-radius: 10%;
+}
+.nameInput .emailInput .messageInput {
+    color:#282d3c;
+    padding: 5%;
+    margin: 1%;
+}
+.contactEmail {
+text-decoration: none;
+}
+.contactEmail:hover {
+    color: #ff8271;
+    transition: 0.5s ease-out;
+}
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+  /*-----------------------------------------------------------------------------------------------------------*/
+
+  /* FOOTER-----------*/
+
+
+.footer{
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0 0 11px 11px;
+    background-color: #282d3c;
+    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
+    opacity: .9;      
+    padding: 1%;
+}
+.social {
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 0;  
+}
+.media {
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 0 4px; 
+    opacity: 1;
+    transition: opacity .3s;   
+}
+
+.media:hover {
+    opacity: .7;
+}
+
+.emailMe {
+    float: right;
+    text-align: right;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    text-decoration: none;     
+}
+
+.emailMe:hover {
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;  
+}  
 
 /* --------------@MEDIA QUERY---------------------------------------------------------------------------------- */
 /* My Site is set to 900px (LG) */

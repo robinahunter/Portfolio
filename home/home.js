@@ -24,7 +24,7 @@ let currentImgIndex = 0;
 const images = document.getElementsByClassName('images');
 
 function automaticSlide () {
-    setTimeout(automaticSlide, 500);
+    setTimeout(automaticSlide, 1000);
 let pics;
 const img  = document.querySelectorAll('.images');
 for (pics=0; pics<img.length; pics++) {
