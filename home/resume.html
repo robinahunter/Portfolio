@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="./home.css">
     <script defer src="node_modules/swup/dist/swup.min.js"></script>
-    <script defer src="home.js"></script>
+    <script defer src="resume.js"></script>
 </head>
 <body id="swup" class="transition-page bodyResume">
     
@@ -52,9 +52,32 @@
         </div>
         <div class="col-4 row-3 contentCenterResume">
             <h2>
-                RESUME
+                past work history
              </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, illo deserunt! Voluptatem debitis voluptatibus possimus incidunt harum cum aperiam, quidem rerum quam nobis voluptas laboriosam optio blanditiis veritatis dolores! Laborum?</p>
+            <p>With a focus in graphic design and product development  you canlearn more about my qualifications below.</p>
+        </div>
+        <button class="modal-button" id="openModal">RESUME</button>
+        <div id="modal">
+          <div id="modal-textbox">
+            <h1 class="resumeH1"></h1>
+            <h3>PROFESSIONAL SUMMARY</h3>
+            <p>Sun Yearround, Owner</p>
+            <p>District Real Estate, Marketing Assistant</p>
+            <p>US Bank, Mortgage Loan Closing</p>
+            <br>
+            <h3>EDUCATION </h3>
+            <p>General Assembly – Software Engineering Immersive </p>
+            <p>Art Institute of Portland - Apparel Design, Portland, OR</p>
+            <br>
+            <h3>VOLUNTEER</h3>
+            <p>Maui Humane Society – Kihei, HI </p>
+            <p>Habitat for Humanity – Family Selection Committee, Portland, OR</p>
+            <p>Fashion Incubator – Community Arts & Fashion Non-Profit Volunteer, Portland, OR</p>
+            <br>
+            <div id="modal-footer">
+              <button class="modal-button" id="close" href="#">CLOSE</button>
+            </div> 
+          </div>
         </div>
         <div class="contentRightResume">
         </div>
