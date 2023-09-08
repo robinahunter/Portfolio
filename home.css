@@ -2,6 +2,7 @@
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Pacifico', cursive; */
 /* font-family: 'Comfortaa', cursive; */
+/*border: 1px dotted red; */
 
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
@@ -11,6 +12,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -151,31 +153,32 @@ h2 {
 .carousel-container {
     position: relative;
     max-width: 900px;
-    max-height: 200px;
+    max-height: 250px;
     display: flex;
     margin: 0 auto;
     background-color: white;
-    opacity: .9;    
+    opacity: .9;   
+    
 }
 
 .carousel-images {
-    width: 100%;
+    width: 100%;   
 }
 .images {
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 .carousel-images img:first-of-type {
     display: flex;  
+    
 }
 .footerHome {
     max-width: 900px;
     margin: auto;
     border-radius: 0 0 11px 11px;
     background-color: #282d3c;
-    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
-    opacity: .9;      
-    padding: 2.5%;
+    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);      
+    padding: 1%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------*/
@@ -217,7 +220,32 @@ h2 {
 .bodyResume {
     background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
 }
+.btl-container {
+    max-width: 100%;
+    position: absolute;
+    display: inline-block;
+        
+}
+
+.contentCenterResume {  
+    margin: 0 0 0 60%;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify; 
+    
+}
+.bottle-images {
+    width: 75%;   
+}
+.imageBtl {
+    max-width: 100%;    
+}
+
+.bottle-images img:first-of-type {
+    display: flex;    
+}
 .contentResume {
+    display: block;
     max-width: 900px;
     height: auto;
     background-color: white;
@@ -225,21 +253,15 @@ h2 {
     margin: auto;
     padding: 0 0 7% 0;
 }
-.contentCenterResume {  
-    margin: 0 0 0 60%;
-    color: #005994;
-    font-family: 'Poppins', sans-serif;
-    text-align: right;  
-}
 .modal-button {
     display: block;
     float: right;
     text-align: right;
-	padding: 7px;
-	background-color: #009d47;
+	padding: 1%;
+	background-color: #f1b71c;
 	border: none;
 	outline: none;
-	border-radius: 3px;
+	border-radius: 10%;
 	color: white;
 	cursor:pointer;
     font-family: 'Comfortaa', cursive; 
@@ -253,7 +275,7 @@ h2 {
     left: 0;
     height: 100%;
     width: 100%;
-    z-index: 3;
+    z-index: 1;
     overflow: auto;
     display: none;
 }
@@ -266,6 +288,7 @@ h2 {
 	background-color: white;
     opacity: 1;
 	height: auto;
+    max-width: 550px;
 	width: 60%;
 	border-radius: 5%;
 	margin: 8% auto;
@@ -277,7 +300,7 @@ h2 {
 
 #modal-footer {
     text-align: right;
-    margin-top: 11%; 
+    margin: 11% 0 20% 0; 
 }
 .resumeH1 {
     padding-bottom: 20px;
@@ -321,7 +344,7 @@ h2 {
     align-items: left;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 6%;
+    padding: 5% 5.5%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
@@ -335,7 +358,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     padding: 5%;
     border: none;
-    border-radius: 7%;
+    border-radius: 10%;
 }
 .spaceBttl {
     font-size: 23px;
@@ -348,7 +371,7 @@ h2 {
     align-items: center;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 6%;
+    padding: 5%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
@@ -363,7 +386,7 @@ h2 {
     font-family: 'Poppins', sans-serif;
     padding: 5%;
     border: none;
-    border-radius: 7%;
+    border-radius: 10%;
 }
 .project3 {
     position: relative;
@@ -387,7 +410,79 @@ h2 {
     font-family: 'Poppins', sans-serif;
     padding: 5%;
     border: none;
+    border-radius: 10%;
+}
+.project4 {
+    position: relative;
+    display: block;
+    float: left;
+    align-items: left;
+    max-width: 33%;
     border-radius: 7%;
+    padding: 5% 5.5%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    font-size: 18px;
+    font-family: 'VT323', monospace;;
+    background-color: #000;
+    color: #01f71e;
+}
+.project4button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 10%;
+}
+
+.project5 {
+    position: relative;
+    display: block;
+    float: center;
+    align-items: center;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    background-image: url('https://i.postimg.cc/Bvv6SywB/aloha-kai.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #282828;
+    color: #ffffff;
+}
+.project5button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 10%;
+}
+.project6 {
+    position: relative;
+    display: block;
+    float: left;
+    align-items: left;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 6%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    background-image: url('https://i.postimg.cc/65Cb3tHV/rock-paper-scissor.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #024468;
+    color: #ffffff;
+}
+.project6button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 10%;
 }
  
 /* --------------------------------------------------------------------------------------------------------------*/
@@ -427,6 +522,7 @@ h2 {
 }
 .contactEmail {
 text-decoration: none;
+color:#005994;
 }
 .contactEmail:hover {
     color: #ff8271;
@@ -441,11 +537,11 @@ text-decoration: none;
 
 .footer{
     max-width: 900px;
+    min-height: 65.5px;
     margin: auto;
     border-radius: 0 0 11px 11px;
     background-color: #282d3c;
-    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
-    opacity: .9;      
+    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);    
     padding: 1%;
 }
 .social {
@@ -460,11 +556,14 @@ text-decoration: none;
     width: 20%;
     padding: 0 4px; 
     opacity: 1;
-    transition: opacity .3s;   
+    transition: opacity .3s;  
+     
 }
 
 .media:hover {
-    opacity: .7;
+    
+    filter: brightness(0) saturate(100%);
+    filter: invert(11%) sepia(35%) saturate(2671%) hue-rotate(341deg) brightness(96%) contrast(97%);
 }
 
 .emailMe {
@@ -653,7 +752,7 @@ text-decoration: none;
 }
       
 
-    @media (max-width: 480px) { /* MEDIUM 420px (most tablets) min-width ----------------------------------------- */
+    @media (max-width: 480px) { /* MEDIUM 480px (most tablets) min-width ----------------------------------------- */
         .contentCenter {
             padding: 20px 15px 200px 15px;
         }
