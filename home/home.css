@@ -12,13 +12,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.transition-page {
-    opacity: 1;
-    transition: 500ms;
-}
-html.is-animating .transition-page {
-    opacity: 0;
-}
+
 body {
     display: flex;
     flex-direction: column;
@@ -157,7 +151,7 @@ h2 {
 .carousel-container {
     position: relative;
     max-width: 900px;
-    height: 200px;
+    max-height: 200px;
     display: flex;
     margin: 0 auto;
     background-color: white;
@@ -166,6 +160,9 @@ h2 {
 
 .carousel-images {
     width: 100%;
+}
+.images {
+    max-width: 100%;
 }
 
 .carousel-images img:first-of-type {
@@ -191,27 +188,26 @@ h2 {
 }
 .contentAbout {
     max-width: 900px;
-    height: auto;
     background-color: white;
     opacity: .9;
     margin: auto;
-    padding: 0 0 7% 0;
 }
-.contentLeftAbout {
-    display: block;
-    margin: 0 100px;
+
+.aboutText {
+    display:inline-block;
+    margin: 0 10%;
+    text-align: justify;
     color: #005994;
     font-family: 'Poppins', sans-serif;
-    text-align: justify; 
-    padding: 0;
 }
-.aboutImage{
-    width: 50%;
+.aboutImage1{ 
+    display: inline-block;
+    margin: 0 5% 5% 70%;
+    text-align: right;
+    width: 20%;
     border-radius: 50%;
-    text-align: justify; 
-    margin: 0 0 0 200%;
-    padding: 0;
-}
+}    
+
 
 /* --------------------------------------------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------------------------------------------*/
@@ -358,7 +354,7 @@ h2 {
     line-height: 15px;
     background-image: url('https://i.postimg.cc/Bvv6SywB/aloha-kai.png');
     background-size: 100%;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-color: #282828;
     color: #ffffff;
 }
@@ -382,8 +378,8 @@ h2 {
     line-height: 15px;
     background-image: url('https://i.postimg.cc/65Cb3tHV/rock-paper-scissor.png');
     background-size: 100%;
-    background-repeat: none;
-    background-color: #282828;
+    background-repeat: no-repeat;
+    background-color: #024468;
     color: #ffffff;
 }
 .project3button {
@@ -400,7 +396,7 @@ h2 {
     /* CONTACT PAGE */
 
 .bodyContact {
-    background-image: url('https://i.postimg.cc/v8KH4PdK/Wave-Print-Navy-Sage.png');
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
 }
 .contentContact {
     max-width: 900px;
@@ -497,8 +493,20 @@ text-decoration: none;
     body {
         display: flex;
         flex-direction: column;
-        max-width: 100%;       
+        width: 100%;       
     }
+    .bodyProjects .projects {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        padding: 0; 
+        margin: auto;     
+    }
+    .project1 .project2 .project3 {
+        max-width: 100%;
+        
+    }
+ 
     .hamburger {
         display: block;
         float: right;
@@ -594,7 +602,17 @@ text-decoration: none;
      .contentRight{
         visibility: hidden;
     }
-
+    .carousel-container {
+        
+        max-width: 100%;
+        max-height: auto;
+    }
+    .carousel-images {
+        max-width: 100%;
+    }
+    .images {
+        max-width: 100%;
+    }
     .footer{
         max-width: 100%;
         margin: auto;
@@ -615,7 +633,7 @@ text-decoration: none;
     }
     
     .media:hover {
-        box-shadow: 0 0 7px #ffffff;;
+        opacity: .7;
     }
     
     .emailMe {
