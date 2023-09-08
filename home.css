@@ -1,0 +1,675 @@
+/* colors:  NAVY #282d3c, CORAL #ff4848, EMERALD #009d47, GOLDEN #f1b71c, HIBISCUS #ff8271, SAGE #badeba, MedNAVY #024468, OCEAN #005994 */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'Comfortaa', cursive; */
+
+/* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+}
+
+
+.glowBox {
+    background-color: #282d3c;
+    background: linear-gradient(to right bottom, #005994, #282d3c, #282d3c);
+    opacity: .9;
+    max-width: 900px;
+    border: 10px;
+    padding: 10px 50px 0 50px; 
+    margin: 20px auto 0 auto;
+    border-radius: 11px 11px 0 0;
+}
+
+.glow {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    margin: 10px 0 10px 50px;
+    float: right;
+    text-align: right;
+} 
+
+.icon {
+    margin: 1%;
+    width: 4%;
+    float: left;
+    text-align: left;  
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.hamburger:hover {
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;  
+}
+
+.glow:hover {
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;
+    font-weight: bolder;
+    text-align: right;
+    cursor: pointer;    
+}
+
+.navbar {
+    max-width: 900px;
+    background-color: white;
+    opacity: .9;
+    margin: auto;  
+    justify-content: left;
+    padding: 20px;
+}
+
+.navItems:link, .navItems:active, .navItems:visited { 
+    text-decoration: none; 
+    color: #282d3c;
+    
+}
+
+.navItems:hover {
+    color: #ff8271;
+    transition: 0.5s ease-out;
+}
+
+.navItems {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 10px; 
+}
+
+/* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+    /* HOME PAGE */
+
+.bodyHome {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
+}
+
+h2 {
+    color: #282d3c;
+    padding: 60px 0 0 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+}
+
+.contentHome {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 2% 0;
+}
+
+.contentCenterHome {  
+    margin: auto;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.pause {
+    position:fixed;
+    display: none;
+    text-align: center;
+    width: 40px;
+    height: 4px;
+    margin: 10px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #009d47;
+    cursor: pointer;
+}
+.pause:nth-child(2) {
+    transform: rotate(45deg);
+}
+.carousel-container {
+    position: relative;
+    max-width: 900px;
+    max-height: 200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    opacity: .9;    
+}
+
+.carousel-images {
+    width: 100%;
+}
+.images {
+    max-width: 100%;
+}
+
+.carousel-images img:first-of-type {
+    display: flex;  
+}
+.footerHome {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0 0 11px 11px;
+    background-color: #282d3c;
+    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
+    opacity: .9;      
+    padding: 2.5%;
+}
+
+/* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+    /* ABOUT PAGE */
+
+.bodyAbout {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
+}
+.contentAbout {
+    max-width: 900px;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+}
+
+.aboutText {
+    display:inline-block;
+    margin: 0 10%;
+    text-align: justify;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutImage1{ 
+    display: inline-block;
+    margin: 0 5% 5% 70%;
+    text-align: right;
+    width: 20%;
+    border-radius: 50%;
+}    
+
+
+/* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+/* RESUME PAGE */
+
+.bodyResume {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
+}
+.contentResume {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 7% 0;
+}
+.contentCenterResume {  
+    margin: 0 0 0 60%;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;  
+}
+.modal-button {
+    display: block;
+    float: right;
+    text-align: right;
+	padding: 7px;
+	background-color: #009d47;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	cursor:pointer;
+    font-family: 'Comfortaa', cursive; 
+    margin: 0 10%;
+}
+
+#modal {
+    background-color: rgba(040, 045, 060, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    overflow: auto;
+    display: none;
+}
+#openModal {
+    display: block;
+    cursor: pointer;
+}
+
+#modal-textbox {
+	background-color: white;
+    opacity: 1;
+	height: auto;
+	width: 60%;
+	border-radius: 5%;
+	margin: 8% auto;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 100%;
+}
+
+#modal-footer {
+    text-align: right;
+    margin-top: 11%; 
+}
+.resumeH1 {
+    padding-bottom: 20px;
+    font-family: 'Comfortaa', cursive; 
+ }
+/* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+    /* PROJECTS PAGE */
+
+.bodyProjects {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
+}
+.contentProjects {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 10px 0;
+}
+.contentCenterProjects {  
+    margin: auto;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+    padding-top: 0;
+}
+.projects {
+    display: flex;
+    margin: auto;
+    max-width: 900px;
+    opacity: .9;
+    background-color: #ffffff; 
+    padding-bottom: 50px; 
+}
+.project1 {
+    position: relative;
+    display: block;
+    float: left;
+    align-items: left;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 6%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    font-size: 18px;
+    font-family: 'VT323', monospace;;
+    background-color: #000;
+    color: #01f71e;
+}
+.project1button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 7%;
+}
+.spaceBttl {
+    font-size: 23px;
+    font-weight:900;
+}
+.project2 {
+    position: relative;
+    display: block;
+    float: center;
+    align-items: center;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 6%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    background-image: url('https://i.postimg.cc/Bvv6SywB/aloha-kai.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #282828;
+    color: #ffffff;
+}
+.project2button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 7%;
+}
+.project3 {
+    position: relative;
+    display: block;
+    float: left;
+    align-items: left;
+    max-width: 33%;
+    border-radius: 7%;
+    padding: 5% 6%;
+    margin: 1% auto;
+    text-align: center;
+    line-height: 15px;
+    background-image: url('https://i.postimg.cc/65Cb3tHV/rock-paper-scissor.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #024468;
+    color: #ffffff;
+}
+.project3button {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+    border: none;
+    border-radius: 7%;
+}
+ 
+/* --------------------------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------------------------*/
+    
+    /* CONTACT PAGE */
+
+.bodyContact {
+    background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
+}
+.contentContact {
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    opacity: .9;
+    margin: auto;
+    padding: 0 0 7% 0;
+}
+.contentCenterContact {  
+    margin: auto;
+    color: #005994;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+.sendButton {
+    background-color: #f1b71c;
+    color: #ffffff;
+    border: none;
+    padding: 2%;
+    border-radius: 10%;
+}
+.nameInput .emailInput .messageInput {
+    color:#282d3c;
+    padding: 5%;
+    margin: 1%;
+}
+.contactEmail {
+text-decoration: none;
+}
+.contactEmail:hover {
+    color: #ff8271;
+    transition: 0.5s ease-out;
+}
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+  /*-----------------------------------------------------------------------------------------------------------*/
+
+  /* FOOTER-----------*/
+
+
+.footer{
+    max-width: 900px;
+    margin: auto;
+    border-radius: 0 0 11px 11px;
+    background-color: #282d3c;
+    background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
+    opacity: .9;      
+    padding: 1%;
+}
+.social {
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 0;  
+}
+.media {
+    float: left;
+    text-align: left;
+    width: 20%;
+    padding: 0 4px; 
+    opacity: 1;
+    transition: opacity .3s;   
+}
+
+.media:hover {
+    opacity: .7;
+}
+
+.emailMe {
+    float: right;
+    text-align: right;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    text-decoration: none;     
+}
+
+.emailMe:hover {
+    text-shadow: 0 0 7px #ffffff;
+    text-shadow: 0 0 10px #ffffff;  
+}  
+
+/* --------------@MEDIA QUERY---------------------------------------------------------------------------------- */
+/* My Site is set to 900px (LG) */
+
+@media (max-width: 768px) {  /* MEDIUM 768px (most tablets) min-width ----------------------------------------- */
+
+    .glow {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;       
+    }
+    .bodyProjects .projects {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+        padding: 0; 
+        margin: auto;     
+    }
+    .project1 .project2 .project3 {
+        max-width: 100%;
+        
+    }
+ 
+    .hamburger {
+        display: block;
+        float: right;
+        text-align: right; 
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        opacity: 0;
+    }
+    .navbar {
+        position: fixed;
+        font-size: larger;
+        right: -100%;
+        top: 100px;
+        gap: 0;
+        display: block;
+        background-color: #282d3c;
+        color: white;
+        opacity: 1;
+        width: 100%;
+        padding: 0 0 0 150px;
+        margin: 0;
+        border: 0;
+        float: right;
+        text-align: right;
+        transition: 0.3s;
+        z-index: 1; /* set higher z-index value */ 
+    }
+    .navbar.active {
+        right: 0;
+    }
+        
+    .glowBox {
+        background-color: #282d3c;
+        background: linear-gradient(to right bottom, #005994, #282d3c, #282d3c);
+        opacity: .9;
+        max-width: 100%;
+        height: 80px;
+        border-radius: 11px 11px 0 0;
+    }
+    
+    .icon {
+        margin: auto;
+        width: 50px;
+        float: left;
+        text-align: left;
+        justify-content: center;
+    }
+
+    .navItems:link, .navItems:active, .navItems:visited { 
+        text-decoration: none; 
+        color: white;
+    }
+    
+    .navItems:hover {
+        color: #ff8271;   
+    }
+    
+    .navItems {
+        display: block;
+        font-family: 'Poppins', sans-serif;  
+    }
+    
+    .contentLeft{
+        visibility: hidden;
+    }
+
+    .content {
+      max-width: 100% !important;  
+      display: inline-block;
+    }
+
+    h2 {
+        color: #282d3c;
+        padding-top: 40px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;
+    }
+
+    .contentCenter { 
+        color: #005994;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        width: 100%;
+        padding: 60px 60px 200px 60px;
+    }
+     .contentRight{
+        visibility: hidden;
+    }
+    .carousel-container {
+        
+        max-width: 100%;
+        max-height: auto;
+    }
+    .carousel-images {
+        max-width: 100%;
+    }
+    .images {
+        max-width: 100%;
+    }
+    .footer{
+        max-width: 100%;
+        margin: auto;
+        border-radius: 0 0 11px 11px;
+        background-color: #282d3c;
+        background: linear-gradient(to right bottom, #282d3c, #282d3c, #005994);
+        opacity: .8;      
+        bottom: 5px;
+        padding: 1%;
+        z-index: 1;
+    }
+    .social {
+        display: flex;
+        float: left;
+        text-align: left;
+        width: 30px;
+        margin: 0 10px;
+    }
+    
+    .media:hover {
+        opacity: .7;
+    }
+    
+    .emailMe {
+        float: right;
+        text-align: right;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        font-size: 14px;
+        text-decoration: none; 
+        padding: 1%;
+    }
+    
+    .emailMe:hover {
+        text-shadow: 0 0 7px #ffffff;
+        text-shadow: 0 0 20px #ffffff;  
+    }    
+}
+      
+
+    @media (max-width: 480px) { /* MEDIUM 420px (most tablets) min-width ----------------------------------------- */
+        .contentCenter {
+            padding: 20px 15px 200px 15px;
+        }
+       
+    }
+
+    @media (max-width: 320px) { /* MEDIUM 320px (most tablets) min-width ----------------------------------------- */
+
+        .contentCenter {
+            padding: 20px 15px 200px 15px;
+        }
+        .social {
+            margin: 0 5px;
+        }
+        .emailMe{
+            margin: 0 5px ;
+        }
+    
+    }
