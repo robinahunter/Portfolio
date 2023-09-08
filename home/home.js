@@ -1,25 +1,6 @@
-//JS for page transitions using swup
+    // HOME PAGE JS //
 
-// const swup = newSwup()
-
-//JS for hamburger menu
-
-const hamburger = document.querySelector(".hamburger");
-const navbar = document.querySelector(".navbar");
-
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navbar.classList.toggle("active");
-})
-
-document.querySelectorAll(".navbar").forEach(n => n.
-   addEventListener("click", () => {
-        hamburger.classList.remove("active");
-        navbar.classList.remove("active");
-   }))
-
-
-   // CAROUSEL SECTION automatic slide function -------------------------------------------
+   // CAROUSEL SECTION automatic slide function 
 let currentImgIndex = 0;
 
 const images = document.getElementsByClassName('images');
@@ -42,25 +23,5 @@ automaticSlide();
 if(currentImgIndex >= images.length) {
     currentImgIndex = 0;
 } 
-       // END CAROUSEL SECTION-----------------------------------------------------------
 
-       //Resume modal - -----------------------------------------------------------------
-
-const openBtn = document.getElementById('openModal')
-
-const modal = document.getElementById('modal')
-
-const close = document.getElementById('close')
-
-const openModal = () => {
-    modal.style.display = 'block';
-    }
-
-openBtn.addEventListener('click', openModal)
-
-const closeModal = () => {
-    modal.style.display = 'none'
-    }
-
-close.addEventListener('click', closeModal)
 

@@ -1,4 +1,4 @@
-//Resume modal - -----------------------------------------------------------------
+// Resume modal //
 
 const openBtn = document.getElementById('openModal')
 
