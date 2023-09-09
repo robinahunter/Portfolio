@@ -114,9 +114,12 @@ body {
 
 h2 {
     color: #282d3c;
-    padding: 60px 0 0 0;
+    padding: 60px 0 20px 0;
     font-family: 'Comfortaa', cursive;
     font-weight: bolder;
+}
+.homeH2 {
+    text-align: center;
 }
 
 .contentHome {
@@ -125,7 +128,7 @@ h2 {
     background-color: white;
     opacity: .9;
     margin: auto;
-    padding: 0 0 2% 0;
+    padding: 0 0 1% 0;
 }
 
 .contentCenterHome {  
@@ -221,24 +224,28 @@ h2 {
     background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
 }
 .btl-container {
-    max-width: 100%;
+    max-width: 600px;
+    min-width: 500px;
     position: absolute;
     display: inline-block;
+    margin: 5% 40% 10% 0;
         
 }
 
 .contentCenterResume {  
-    margin: 0 0 0 60%;
+    margin: 0 0 0 50%;
     color: #005994;
     font-family: 'Poppins', sans-serif;
     text-align: justify; 
     
 }
 .bottle-images {
-    width: 75%;   
+    width: 75%;  
+    margin: 0 40% 0 0; 
 }
 .imageBtl {
-    max-width: 100%;    
+    max-width: 100%;
+    margin: 0 40% 0 0;    
 }
 
 .bottle-images img:first-of-type {
