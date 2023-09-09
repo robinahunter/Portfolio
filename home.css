@@ -223,14 +223,6 @@ h2 {
 .bodyResume {
     background-image: url('https://i.postimg.cc/cJxRf6TF/NEW-Japan-Print-Updated.png');
 }
-.btl-container {
-    max-width: 600px;
-    min-width: 500px;
-    position: absolute;
-    display: inline-block;
-    margin: 5% 40% 10% 0;
-        
-}
 
 .contentCenterResume {  
     margin: 0 0 0 50%;
@@ -239,17 +231,26 @@ h2 {
     text-align: justify; 
     
 }
+.btl-container {
+    float: left;
+    display: inline-block;
+    text-align: left;
+    justify-items: center;      
+}
 .bottle-images {
-    width: 75%;  
-    margin: 0 40% 0 0; 
+    width: 200%;  
+    padding-right: 100%;
+    margin-top: 20%;
+    justify-items: center;
+   
 }
 .imageBtl {
     max-width: 100%;
-    margin: 0 40% 0 0;    
+    justify-items: center;   
 }
 
 .bottle-images img:first-of-type {
-    display: flex;    
+    display: block;  
 }
 .contentResume {
     display: block;
@@ -258,7 +259,23 @@ h2 {
     background-color: white;
     opacity: .9;
     margin: auto;
-    padding: 0 0 7% 0;
+    padding: 0 0 6% 0;
+}
+.modal-button-top {
+    display: block;
+    float: right;
+    text-align: right;
+	padding: 1%;
+	background-color: white;
+	border: none;
+	outline: none;
+	border-radius: 10%;
+	color:#f1b71c;
+	cursor:pointer;
+    font-family: 'Comfortaa', cursive; 
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0 10%;
 }
 .modal-button {
     display: block;
@@ -274,13 +291,13 @@ h2 {
     font-family: 'Comfortaa', cursive; 
     margin: 0 10%;
 }
-
 #modal {
     background-color: rgba(040, 045, 060, 0.9);
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     width: 100%;
     z-index: 1;
     overflow: auto;
@@ -294,15 +311,13 @@ h2 {
 #modal-textbox {
 	background-color: white;
     opacity: 1;
-	height: auto;
-    max-width: 550px;
+    max-width: 100%;
 	width: 60%;
 	border-radius: 5%;
-	margin: 8% auto;
+	margin:auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     padding: 3%;
     font-family: 'Poppins', sans-serif;
-    line-height: 100%;
 }
 
 #modal-footer {
@@ -718,6 +733,15 @@ color:#005994;
     }
     .images {
         max-width: 100%;
+    }
+    #modal-textbox {
+        background-color: white;
+        opacity: 1;
+        width: 100%;
+        margin:auto;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        padding: 3%;
+        font-family: 'Poppins', sans-serif;
     }
     .footer{
         max-width: 100%;

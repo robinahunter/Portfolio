@@ -6,6 +6,8 @@ const modal = document.getElementById('modal')
 
 const close = document.getElementById('close')
 
+const close1 = document.getElementById('close1')
+
 const openModal = () => {
     modal.style.display = 'block';
     }
@@ -17,6 +19,9 @@ const closeModal = () => {
     }
 
 close.addEventListener('click', closeModal)
+
+close1.addEventListener('click', closeModal)
+
 
    // CAROUSEL SECTION automatic slide function 
    let currentImgIndex = 0;
