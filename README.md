@@ -6,7 +6,7 @@ Image of site:
 Technologies used and Installation:
 >This project was created using HTML, CSS, JavaScript and Markdown.
 >
->To access this site follow url, https://github.com/robinahunter/Portfolio-robin-hunter/tree/main
+>To access this site follow url, https://robinahunter.github.io/Portfolio/
 >
 Users:
 >
@@ -30,5 +30,5 @@ Unsolved problems:
 Future upgrades:
 >
 >
-Link to hosted project on GitHub: https://github.com/robinahunter/Portfolio-robin-hunter/tree/main
+Link to hosted project on GitHub: https://robinahunter.github.io/Portfolio/
 >
