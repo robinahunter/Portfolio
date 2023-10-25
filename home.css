@@ -267,7 +267,7 @@ h2 {
 	background-color: white;
 	border: none;
 	outline: none;
-	border-radius: 10%;
+	border-radius: 5rem;
 	color:#f1b71c;
 	cursor:pointer;
     font-family: 'Comfortaa', cursive; 
@@ -283,7 +283,7 @@ h2 {
 	background-color: #f1b71c;
 	border: none;
 	outline: none;
-	border-radius: 10%;
+	border-radius: 4%;
 	color: white;
 	cursor:pointer;
     font-family: 'Comfortaa', cursive; 
@@ -311,7 +311,7 @@ h2 {
     opacity: 1;
     max-width: 100%;
 	width: 60%;
-	border-radius: 5%;
+	border-radius: 1rem;
 	margin:auto;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     padding: 3%;
@@ -369,20 +369,20 @@ h2 {
     text-align: center;
     line-height: 15px;
     font-size: 18px;
-    font-family: 'VT323', monospace;;
-    background-color: #000;
-    color: #01f71e;
+    background-image: url('https://i.postimg.cc/X7h4qMM9/sun-surf-sea.png');
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    border: #282828 solid;
+    color: ;
 }
 .project1button {
-    background-color: white;
+    background-color:#282828;
+    color:#ffffff;
     font-family: 'Poppins', sans-serif;
     padding: 5%;
     border: none;
     border-radius: 10%;
-}
-.spaceBttl {
-    font-size: 23px;
-    font-weight:900;
 }
 .project2 {
     position: relative;
@@ -419,10 +419,10 @@ h2 {
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
-    background-image: url('https://i.postimg.cc/65Cb3tHV/rock-paper-scissor.png');
-    background-size: 100%;
+    background-image: url('https://i.postimg.cc/1XQMJ3ND/MixMATCH.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: #024468;
+    
     color: #ffffff;
 }
 .project3button {
