@@ -369,16 +369,15 @@ h2 {
     text-align: center;
     line-height: 15px;
     font-size: 18px;
-    background-image: url('https://i.postimg.cc/X7h4qMM9/sun-surf-sea.png');
+    background-image: url('https://i.postimg.cc/tTxH9sY2/sun-surf-sea.png');
     background-size: cover;
     
     background-repeat: no-repeat;
     border: #282828 solid;
-    color: ;
+    color: #ffffff;
 }
 .project1button {
-    background-color:#282828;
-    color:#ffffff;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
     padding: 5%;
     border: none;
@@ -419,7 +418,7 @@ h2 {
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
-    background-image: url('https://i.postimg.cc/tTxH9sY2/sun-surf-sea.png');
+    background-image: url('https://i.postimg.cc/50n8N2TQ/Surf-Mystic.png');
     background-size: cover;
     background-repeat: no-repeat;
     
