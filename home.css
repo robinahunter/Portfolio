@@ -251,13 +251,12 @@ h2 {
     display: block;  
 }
 .contentResume {
-    display: block;
     max-width: 900px;
-    
+    height: auto;
     background-color: white;
     opacity: .9;
     margin: auto;
-    padding: 0 0 6% 0;
+    padding: 0 0 1% 0;
 }
 .modal-button-top {
     display: block;
