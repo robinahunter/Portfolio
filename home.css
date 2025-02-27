@@ -364,15 +364,16 @@ h2 {
     align-items: left;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 5.5%;
+    padding: 5% 6%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
     font-size: 18px;
     background-image: url('https://i.postimg.cc/fWgC1JZR/sun-surf-sea.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border: #282828 solid;
+    background-color: #000;
     color: #000;
 }
 .project1button {
@@ -414,13 +415,14 @@ h2 {
     align-items: left;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 6%;
+    padding: 5% 7%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
     background-image: url('https://i.postimg.cc/50n8N2TQ/Surf-Mystic.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-color: #ffffff;
     
     color: #ffffff;
 }
@@ -438,12 +440,12 @@ h2 {
     align-items: left;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 6%;
+    padding: 5% 7%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
     background-image: url('https://i.postimg.cc/J7D8fHJT/Maui-Nui-Wai.png');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     
     color: #ffffff;
@@ -621,8 +623,9 @@ color:#005994;
         padding: 0; 
         margin: auto;     
     }
-    .project1 .project2 .project3 {
+    .project1 .project2 .project3 .project4 .project5 .project6 {
         max-width: 100%;  
+        background-size: 100%;
     }
  
     .hamburger {
