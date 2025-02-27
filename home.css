@@ -370,8 +370,7 @@ h2 {
     line-height: 15px;
     font-size: 18px;
     background-image: url('https://i.postimg.cc/fWgC1JZR/sun-surf-sea.png');
-    background-size: cover;
-    
+    background-size: 100%;
     background-repeat: no-repeat;
     border: #282828 solid;
     color: #000;
@@ -420,7 +419,7 @@ h2 {
     text-align: center;
     line-height: 15px;
     background-image: url('https://i.postimg.cc/50n8N2TQ/Surf-Mystic.png');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     
     color: #ffffff;
@@ -444,7 +443,7 @@ h2 {
     text-align: center;
     line-height: 15px;
     background-image: url('https://i.postimg.cc/J7D8fHJT/Maui-Nui-Wai.png');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     
     color: #ffffff;
@@ -493,8 +492,7 @@ h2 {
     text-align: center;
     line-height: 15px;
     background-image: url('https://i.postimg.cc/h46mnmYh/sun-yearround.png');
-    background-size: cover;
-    
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: #282828;
     color: #ffffff;
