@@ -369,15 +369,16 @@ h2 {
     text-align: center;
     line-height: 15px;
     font-size: 18px;
-    background-image: url('https://i.postimg.cc/tTxH9sY2/sun-surf-sea.png');
+    background-image: url('https://i.postimg.cc/fWgC1JZR/sun-surf-sea.png');
     background-size: cover;
     
     background-repeat: no-repeat;
     border: #282828 solid;
-    color: #ffffff;
+    color: #000;
 }
 .project1button {
-    background-color: white;
+    background-color: #000;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     padding: 5%;
     border: none;
@@ -438,14 +439,15 @@ h2 {
     align-items: left;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 5.5%;
+    padding: 5% 6%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
-    font-size: 18px;
-    font-family: 'VT323', monospace;;
-    background-color: #000;
-    color: #01f71e;
+    background-image: url('https://i.postimg.cc/J7D8fHJT/Maui-Nui-Wai.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: #ffffff;
 }
 .project4button {
     background-color: white;
@@ -466,7 +468,7 @@ h2 {
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
-    background-image: url('https://i.postimg.cc/Bvv6SywB/aloha-kai.png');
+    background-image: url('https://i.postimg.cc/x1q35QBb/PDC-diagnostics-page.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: #282828;
@@ -482,18 +484,19 @@ h2 {
 .project6 {
     position: relative;
     display: block;
-    float: left;
-    align-items: left;
+    float: center;
+    align-items: center;
     max-width: 33%;
     border-radius: 7%;
-    padding: 5% 6%;
+    padding: 5%;
     margin: 1% auto;
     text-align: center;
     line-height: 15px;
-    background-image: url('https://i.postimg.cc/65Cb3tHV/rock-paper-scissor.png');
-    background-size: 100%;
+    background-image: url('https://i.postimg.cc/h46mnmYh/sun-yearround.png');
+    background-size: cover;
+    
     background-repeat: no-repeat;
-    background-color: #024468;
+    background-color: #282828;
     color: #ffffff;
 }
 .project6button {
